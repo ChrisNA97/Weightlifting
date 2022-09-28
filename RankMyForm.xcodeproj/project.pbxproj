@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CE936219D9E9E40FC350079 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D4B103C3496B471BFCD597C /* awsconfiguration.json */; };
+		507D03F52681492B00AE5B54 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 507D03F32681492B00AE5B54 /* amplifyconfiguration.json */; };
+		507D03F62681492B00AE5B54 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 507D03F42681492B00AE5B54 /* awsconfiguration.json */; };
+		507D052E26824F6D00AE5B54 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507D052D26824F6D00AE5B54 /* CameraController.swift */; };
+		507D05302685846700AE5B54 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507D052F2685846700AE5B54 /* LoginView.swift */; };
+		50DFC6C926811A3A006957E7 /* RankMyFormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DFC6C826811A3A006957E7 /* RankMyFormApp.swift */; };
+		50DFC6CB26811A3A006957E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DFC6CA26811A3A006957E7 /* ContentView.swift */; };
+		50DFC6CD26811A3C006957E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50DFC6CC26811A3C006957E7 /* Assets.xcassets */; };
+		50DFC6D026811A3C006957E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50DFC6CF26811A3C006957E7 /* Preview Assets.xcassets */; };
+		50DFC6DB26811A3C006957E7 /* RankMyFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DFC6DA26811A3C006957E7 /* RankMyFormTests.swift */; };
+		50DFC6E626811A3C006957E7 /* RankMyFormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DFC6E526811A3C006957E7 /* RankMyFormUITests.swift */; };
+		56F6728DD10E56FEE15CD1D0 /* Pods_RankMyForm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC539061A4C89F30B67E942B /* Pods_RankMyForm.framework */; };
+		57DD38A2DCECD2EBEDF91B58 /* Pods_RankMyForm_RankMyFormUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07B3F4D66D432CCD6C67AA4 /* Pods_RankMyForm_RankMyFormUITests.framework */; };
+		6200CF1A305546739FB08B70 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 645DB89CCF7741DB417983BB /* amplifyconfiguration.json */; };
+		DDD2723E65C132F72E650E48 /* Pods_RankMyFormTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E882E3CB4DCA512459790B1 /* Pods_RankMyFormTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50DFC6D726811A3C006957E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50DFC6BD26811A3A006957E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50DFC6C426811A3A006957E7;
+			remoteInfo = RankMyForm;
+		};
+		50DFC6E226811A3C006957E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50DFC6BD26811A3A006957E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50DFC6C426811A3A006957E7;
+			remoteInfo = RankMyForm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28C5FD7EBAC857ABB9A6AD20 /* Pods-RankMyFormTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RankMyFormTests.debug.xcconfig"; path = "Target Support Files/Pods-RankMyFormTests/Pods-RankMyFormTests.debug.xcconfig"; sourceTree = "<group>"; };
+		507D03F32681492B00AE5B54 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
+		507D03F42681492B00AE5B54 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		507D052D26824F6D00AE5B54 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		507D052F2685846700AE5B54 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		50DFC6C526811A3A006957E7 /* RankMyForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RankMyForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50DFC6C826811A3A006957E7 /* RankMyFormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankMyFormApp.swift; sourceTree = "<group>"; };
+		50DFC6CA26811A3A006957E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		50DFC6CC26811A3C006957E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50DFC6CF26811A3C006957E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50DFC6D126811A3C006957E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50DFC6D626811A3C006957E7 /* RankMyFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RankMyFormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50DFC6DA26811A3C006957E7 /* RankMyFormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankMyFormTests.swift; sourceTree = "<group>"; };
+		50DFC6DC26811A3C006957E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50DFC6E126811A3C006957E7 /* RankMyFormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RankMyFormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50DFC6E526811A3C006957E7 /* RankMyFormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankMyFormUITests.swift; sourceTree = "<group>"; };
+		50DFC6E726811A3C006957E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E882E3CB4DCA512459790B1 /* Pods_RankMyFormTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RankMyFormTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		645DB89CCF7741DB417983BB /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		6D4B103C3496B471BFCD597C /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		744C2FE356CDABBFB8E61E56 /* Pods-RankMyFormTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RankMyFormTests.release.xcconfig"; path = "Target Support Files/Pods-RankMyFormTests/Pods-RankMyFormTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC539061A4C89F30B67E942B /* Pods_RankMyForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RankMyForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD1374E9DDC0A0ED8EAC023 /* Pods-RankMyForm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RankMyForm.release.xcconfig"; path = "Target Support Files/Pods-RankMyForm/Pods-RankMyForm.release.xcconfig"; sourceTree = "<group>"; };
+		C07B3F4D66D432CCD6C67AA4 /* Pods_RankMyForm_RankMyFormUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RankMyForm_RankMyFormUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C995DE58264EE7733B70AC99 /* Pods-RankMyForm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RankMyForm.debug.xcconfig"; path = "Target Support Files/Pods-RankMyForm/Pods-RankMyForm.debug.xcconfig"; sourceTree = "<group>"; };
+		C9D8DED985BEAC6B0C433B22 /* Pods-RankMyForm-RankMyFormUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RankMyForm-RankMyFormUITests.debug.xcconfig"; path = "Target Support Files/Pods-RankMyForm-RankMyFormUITests/Pods-RankMyForm-RankMyFormUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCDFB783233907259CD35A38 /* Pods-RankMyForm-RankMyFormUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RankMyForm-RankMyFormUITests.release.xcconfig"; path = "Target Support Files/Pods-RankMyForm-RankMyFormUITests/Pods-RankMyForm-RankMyFormUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50DFC6C226811A3A006957E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F6728DD10E56FEE15CD1D0 /* Pods_RankMyForm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DFC6D326811A3C006957E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD2723E65C132F72E650E48 /* Pods_RankMyFormTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DFC6DE26811A3C006957E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DD38A2DCECD2EBEDF91B58 /* Pods_RankMyForm_RankMyFormUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50DFC6BC26811A3A006957E7 = {
+			isa = PBXGroup;
+			children = (
+				50DFC6C726811A3A006957E7 /* RankMyForm */,
+				50DFC6D926811A3C006957E7 /* RankMyFormTests */,
+				50DFC6E426811A3C006957E7 /* RankMyFormUITests */,
+				50DFC6C626811A3A006957E7 /* Products */,
+				D65C2966A4B38047959AF450 /* AmplifyConfig */,
+				E60432AAFEA70E7F1047AC06 /* Pods */,
+				68B9E9933723635B546E32C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50DFC6C626811A3A006957E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50DFC6C526811A3A006957E7 /* RankMyForm.app */,
+				50DFC6D626811A3C006957E7 /* RankMyFormTests.xctest */,
+				50DFC6E126811A3C006957E7 /* RankMyFormUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50DFC6C726811A3A006957E7 /* RankMyForm */ = {
+			isa = PBXGroup;
+			children = (
+				50DFC6C826811A3A006957E7 /* RankMyFormApp.swift */,
+				507D052F2685846700AE5B54 /* LoginView.swift */,
+				50DFC6CA26811A3A006957E7 /* ContentView.swift */,
+				507D052D26824F6D00AE5B54 /* CameraController.swift */,
+				507D03F32681492B00AE5B54 /* amplifyconfiguration.json */,
+				507D03F42681492B00AE5B54 /* awsconfiguration.json */,
+				50DFC6CC26811A3C006957E7 /* Assets.xcassets */,
+				50DFC6D126811A3C006957E7 /* Info.plist */,
+				50DFC6CE26811A3C006957E7 /* Preview Content */,
+			);
+			path = RankMyForm;
+			sourceTree = "<group>";
+		};
+		50DFC6CE26811A3C006957E7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				50DFC6CF26811A3C006957E7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50DFC6D926811A3C006957E7 /* RankMyFormTests */ = {
+			isa = PBXGroup;
+			children = (
+				50DFC6DA26811A3C006957E7 /* RankMyFormTests.swift */,
+				50DFC6DC26811A3C006957E7 /* Info.plist */,
+			);
+			path = RankMyFormTests;
+			sourceTree = "<group>";
+		};
+		50DFC6E426811A3C006957E7 /* RankMyFormUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50DFC6E526811A3C006957E7 /* RankMyFormUITests.swift */,
+				50DFC6E726811A3C006957E7 /* Info.plist */,
+			);
+			path = RankMyFormUITests;
+			sourceTree = "<group>";
+		};
+		68B9E9933723635B546E32C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC539061A4C89F30B67E942B /* Pods_RankMyForm.framework */,
+				C07B3F4D66D432CCD6C67AA4 /* Pods_RankMyForm_RankMyFormUITests.framework */,
+				5E882E3CB4DCA512459790B1 /* Pods_RankMyFormTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D65C2966A4B38047959AF450 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				6D4B103C3496B471BFCD597C /* awsconfiguration.json */,
+				645DB89CCF7741DB417983BB /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			sourceTree = "<group>";
+		};
+		E60432AAFEA70E7F1047AC06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C995DE58264EE7733B70AC99 /* Pods-RankMyForm.debug.xcconfig */,
+				BDD1374E9DDC0A0ED8EAC023 /* Pods-RankMyForm.release.xcconfig */,
+				C9D8DED985BEAC6B0C433B22 /* Pods-RankMyForm-RankMyFormUITests.debug.xcconfig */,
+				FCDFB783233907259CD35A38 /* Pods-RankMyForm-RankMyFormUITests.release.xcconfig */,
+				28C5FD7EBAC857ABB9A6AD20 /* Pods-RankMyFormTests.debug.xcconfig */,
+				744C2FE356CDABBFB8E61E56 /* Pods-RankMyFormTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50DFC6C426811A3A006957E7 /* RankMyForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50DFC6EA26811A3C006957E7 /* Build configuration list for PBXNativeTarget "RankMyForm" */;
+			buildPhases = (
+				09A36F95367B390C0DC3CBB6 /* [CP] Check Pods Manifest.lock */,
+				50DFC6C126811A3A006957E7 /* Sources */,
+				50DFC6C226811A3A006957E7 /* Frameworks */,
+				50DFC6C326811A3A006957E7 /* Resources */,
+				ED0E31C463793316B4E0ED08 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RankMyForm;
+			productName = RankMyForm;
+			productReference = 50DFC6C526811A3A006957E7 /* RankMyForm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50DFC6D526811A3C006957E7 /* RankMyFormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50DFC6ED26811A3C006957E7 /* Build configuration list for PBXNativeTarget "RankMyFormTests" */;
+			buildPhases = (
+				03A55A17284F0FC2E82D08FE /* [CP] Check Pods Manifest.lock */,
+				50DFC6D226811A3C006957E7 /* Sources */,
+				50DFC6D326811A3C006957E7 /* Frameworks */,
+				50DFC6D426811A3C006957E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50DFC6D826811A3C006957E7 /* PBXTargetDependency */,
+			);
+			name = RankMyFormTests;
+			productName = RankMyFormTests;
+			productReference = 50DFC6D626811A3C006957E7 /* RankMyFormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50DFC6E026811A3C006957E7 /* RankMyFormUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50DFC6F026811A3C006957E7 /* Build configuration list for PBXNativeTarget "RankMyFormUITests" */;
+			buildPhases = (
+				EDB546E7B19A1330C5B7363F /* [CP] Check Pods Manifest.lock */,
+				50DFC6DD26811A3C006957E7 /* Sources */,
+				50DFC6DE26811A3C006957E7 /* Frameworks */,
+				50DFC6DF26811A3C006957E7 /* Resources */,
+				DDBE52FFA6282A92D8D84D11 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50DFC6E326811A3C006957E7 /* PBXTargetDependency */,
+			);
+			name = RankMyFormUITests;
+			productName = RankMyFormUITests;
+			productReference = 50DFC6E126811A3C006957E7 /* RankMyFormUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50DFC6BD26811A3A006957E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					50DFC6C426811A3A006957E7 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					50DFC6D526811A3C006957E7 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 50DFC6C426811A3A006957E7;
+					};
+					50DFC6E026811A3C006957E7 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 50DFC6C426811A3A006957E7;
+					};
+				};
+			};
+			buildConfigurationList = 50DFC6C026811A3A006957E7 /* Build configuration list for PBXProject "RankMyForm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50DFC6BC26811A3A006957E7;
+			productRefGroup = 50DFC6C626811A3A006957E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50DFC6C426811A3A006957E7 /* RankMyForm */,
+				50DFC6D526811A3C006957E7 /* RankMyFormTests */,
+				50DFC6E026811A3C006957E7 /* RankMyFormUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50DFC6C326811A3A006957E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507D03F62681492B00AE5B54 /* awsconfiguration.json in Resources */,
+				50DFC6D026811A3C006957E7 /* Preview Assets.xcassets in Resources */,
+				507D03F52681492B00AE5B54 /* amplifyconfiguration.json in Resources */,
+				50DFC6CD26811A3C006957E7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DFC6D426811A3C006957E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CE936219D9E9E40FC350079 /* awsconfiguration.json in Resources */,
+				6200CF1A305546739FB08B70 /* amplifyconfiguration.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DFC6DF26811A3C006957E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03A55A17284F0FC2E82D08FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RankMyFormTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09A36F95367B390C0DC3CBB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RankMyForm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDBE52FFA6282A92D8D84D11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RankMyForm-RankMyFormUITests/Pods-RankMyForm-RankMyFormUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RankMyForm-RankMyFormUITests/Pods-RankMyForm-RankMyFormUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RankMyForm-RankMyFormUITests/Pods-RankMyForm-RankMyFormUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED0E31C463793316B4E0ED08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RankMyForm/Pods-RankMyForm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RankMyForm/Pods-RankMyForm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RankMyForm/Pods-RankMyForm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDB546E7B19A1330C5B7363F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RankMyForm-RankMyFormUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50DFC6C126811A3A006957E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507D052E26824F6D00AE5B54 /* CameraController.swift in Sources */,
+				50DFC6CB26811A3A006957E7 /* ContentView.swift in Sources */,
+				507D05302685846700AE5B54 /* LoginView.swift in Sources */,
+				50DFC6C926811A3A006957E7 /* RankMyFormApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DFC6D226811A3C006957E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DFC6DB26811A3C006957E7 /* RankMyFormTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DFC6DD26811A3C006957E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DFC6E626811A3C006957E7 /* RankMyFormUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50DFC6D826811A3C006957E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50DFC6C426811A3A006957E7 /* RankMyForm */;
+			targetProxy = 50DFC6D726811A3C006957E7 /* PBXContainerItemProxy */;
+		};
+		50DFC6E326811A3C006957E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50DFC6C426811A3A006957E7 /* RankMyForm */;
+			targetProxy = 50DFC6E226811A3C006957E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		50DFC6E826811A3C006957E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50DFC6E926811A3C006957E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50DFC6EB26811A3C006957E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C995DE58264EE7733B70AC99 /* Pods-RankMyForm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RankMyForm/Preview Content\"";
+				DEVELOPMENT_TEAM = ZHP945ZVRQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RankMyForm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sellouts.RankMyForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50DFC6EC26811A3C006957E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDD1374E9DDC0A0ED8EAC023 /* Pods-RankMyForm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RankMyForm/Preview Content\"";
+				DEVELOPMENT_TEAM = ZHP945ZVRQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RankMyForm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sellouts.RankMyForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50DFC6EE26811A3C006957E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28C5FD7EBAC857ABB9A6AD20 /* Pods-RankMyFormTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZHP945ZVRQ;
+				INFOPLIST_FILE = RankMyFormTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sellouts.RankMyFormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RankMyForm.app/RankMyForm";
+			};
+			name = Debug;
+		};
+		50DFC6EF26811A3C006957E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 744C2FE356CDABBFB8E61E56 /* Pods-RankMyFormTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZHP945ZVRQ;
+				INFOPLIST_FILE = RankMyFormTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sellouts.RankMyFormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RankMyForm.app/RankMyForm";
+			};
+			name = Release;
+		};
+		50DFC6F126811A3C006957E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9D8DED985BEAC6B0C433B22 /* Pods-RankMyForm-RankMyFormUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZHP945ZVRQ;
+				INFOPLIST_FILE = RankMyFormUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sellouts.RankMyFormUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RankMyForm;
+			};
+			name = Debug;
+		};
+		50DFC6F226811A3C006957E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCDFB783233907259CD35A38 /* Pods-RankMyForm-RankMyFormUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZHP945ZVRQ;
+				INFOPLIST_FILE = RankMyFormUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sellouts.RankMyFormUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RankMyForm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50DFC6C026811A3A006957E7 /* Build configuration list for PBXProject "RankMyForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50DFC6E826811A3C006957E7 /* Debug */,
+				50DFC6E926811A3C006957E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50DFC6EA26811A3C006957E7 /* Build configuration list for PBXNativeTarget "RankMyForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50DFC6EB26811A3C006957E7 /* Debug */,
+				50DFC6EC26811A3C006957E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50DFC6ED26811A3C006957E7 /* Build configuration list for PBXNativeTarget "RankMyFormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50DFC6EE26811A3C006957E7 /* Debug */,
+				50DFC6EF26811A3C006957E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50DFC6F026811A3C006957E7 /* Build configuration list for PBXNativeTarget "RankMyFormUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50DFC6F126811A3C006957E7 /* Debug */,
+				50DFC6F226811A3C006957E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50DFC6BD26811A3A006957E7 /* Project object */;
+}
